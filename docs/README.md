@@ -13,3 +13,4 @@ Button Click Listener Design: https://stackoverflow.com/questions/5588804/androi
 - Implement EventLog.getAllByDay() to return a List representing EmoticonDailySummary.<br> 
 - Implement EmoticonDailySummary.size() (counts) and EmoticonDailySummary.distr() (frequencies).<br>
 - Update UML diagram to inlude all necessary methods, attributes and detailed class descriptions as a note.<br>
+- Finalize references and include citation comment in code.<br>
