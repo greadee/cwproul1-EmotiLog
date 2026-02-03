@@ -1,20 +1,20 @@
 package com.example.assg1;
 
 public class Emoticon {
-    private final String id;
+    private final String name;
     private final String emoji;
 
-    public Emoticon(String id, String emoji) {
-        if (id == null || id.trim().isEmpty()) {
+    public Emoticon(String name, String emoji) {
+        if (name == null || name.trim().isEmpty()) {
             throw new IllegalArgumentException("String id not supplied to Emoticon constructor.");
         }
         if (emoji == null || emoji.trim().isEmpty()) {
             throw new IllegalArgumentException("String emoji not supplied to Emoticon constructor.");
         }
-        this.id = id.trim();
+        this.name = name.trim().toLowerCase();
         this.emoji = emoji.trim();
     }
-    public String getId() {return id;}
-    public String getEmoji(){return id;}
+    public String getName() {return name;}
+    public String getEmoji(){return emoji;}
 
 }

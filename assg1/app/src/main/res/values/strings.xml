@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">assg1</string>
+    <string name="legend">
+    "😊 - I am feeling happy today.
+    🧐 - I am feeling investigative today.
+    😖 - I am feeling miserable today.
+    🤬 - I am feeling angry today.
+    🤠 - I am feeling rowdy today.
+    🤯 - I am feeling mindblown today.
+    ☠️️ - I am feeling dead today.
+    😈 - I am feeling mischievous today.
+    👹 - I am feeling fiendish today."</string>
 </resources>
