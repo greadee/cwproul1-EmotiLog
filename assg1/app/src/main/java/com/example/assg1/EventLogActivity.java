@@ -43,9 +43,7 @@ public class EventLogActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View view) {
         // finish sub-activity, go back to main activity.
-        if (view.getId() == R.id.btn_summaryBack) {
-            finish();
-        }
+        if (view.getId() == R.id.btn_summaryBack) { finish(); }
     }
 }
 
